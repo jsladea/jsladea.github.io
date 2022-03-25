@@ -53,3 +53,15 @@
     /*background-color: #f5f5f5;*/
     padding: 20px;
 }
+
+.mail-link:link {
+    color: #3042ff;
+}
+
+.mail-link:visited {
+    color: #3042ff;
+}
+
+.mail-link:hover {
+    color: #232fb0;
+}
