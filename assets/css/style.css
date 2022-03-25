@@ -71,3 +71,7 @@
 .mail-link:hover {
     color: #232fb0;
 }
+
+.plain-text-link, .plain-text-link:link, .plain-text-link:visited, .plain-text-link:hover {
+    color: inherit;
+}

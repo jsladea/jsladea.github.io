@@ -15,17 +15,17 @@ const app = Vue.createApp({
     data() {
         return {
             mainGridItems: [
-                new GridItem(true, "Python"),
+                new GridItem(true, "Python", "#portfolio"),
                 new GridItem(false, "Sample Website Using Django Framework", pythonUrl, "images/portfolio-images/python-django.png"),
-                new GridItem(true, "C#"),
+                new GridItem(true, "C#", "#portfolio"),
                 new GridItem(false, "C# Windows Forms Application", cSharpUrl, "images/portfolio-images/csharp.png"),
-                new GridItem(true, "JavaScript"),
+                new GridItem(true, "JavaScript", "#portfolio"),
                 new GridItem(false, "Example Help Menu", helpMenuUrl, "images/portfolio-images/help-menu.jpg"),
                 new GridItem(false, '"OddJobs" Sample Website Project', pythonUrl, "images/portfolio-images/oddjobs-js.png"),
                 new GridItem(false, "Example Using Vue Framework", basicWebsiteUrl, "images/portfolio-images/basic-website-js.png"),
-                new GridItem(true, "Miscellaneous Schoolwork"),
+                new GridItem(true, "Miscellaneous Schoolwork", "#portfolio"),
                 new GridItem(false, "Schoolwork", schoolUrl, "images/portfolio-images/schoolwork.jpg"),
-                new GridItem(true, "Resume"),
+                new GridItem(true, "Resume", "docs/Resume.pdf"),
                 new GridItem(false, "My Resume", "docs/Resume.pdf", "images/portfolio-images/resume.png")
             ],
         };
