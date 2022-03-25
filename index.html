@@ -82,7 +82,7 @@
 							</header>
 
 							<div id="main-grid-container">
-								<article :class="{'grid-item': !gridItem.isHeader, 'grid-header': gridItem.isHeader, 'item': !gridItem.isHeader}" @click="navigate(gridItem.link)" v-for="gridItem in mainGridItems">
+								<article :id="gridItem.id" :class="{'grid-item': !gridItem.isHeader, 'grid-header': gridItem.isHeader, 'item': !gridItem.isHeader}" @click="!gridItem.isHeader ? navigate(gridItem.link) : ''" v-for="gridItem in mainGridItems">
 									<div v-if="gridItem.isHeader" class="grid-header-text">{{gridItem.text}}</div>
 									<img v-if="!gridItem.isHeader" :src="gridItem.imgSrc">
 									<header v-if="!gridItem.isHeader">
