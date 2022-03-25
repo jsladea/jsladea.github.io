@@ -39,6 +39,12 @@
     font-weight: 400;
 }
 
+.portfolio-header {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
 .grid-item img {
     width: 100%;
     height: auto;

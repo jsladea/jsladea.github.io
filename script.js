@@ -24,7 +24,9 @@ const app = Vue.createApp({
                 new GridItem(false, '"OddJobs" Sample Website Project', pythonUrl, "images/portfolio-images/oddjobs-js.png"),
                 new GridItem(false, "Example Using Vue Framework", basicWebsiteUrl, "images/portfolio-images/basic-website-js.png"),
                 new GridItem(true, "Miscellaneous Schoolwork"),
-                new GridItem(false, "Schoolwork", schoolUrl, "images/portfolio-images/schoolwork.jpg")
+                new GridItem(false, "Schoolwork", schoolUrl, "images/portfolio-images/schoolwork.jpg"),
+                new GridItem(true, "Resume"),
+                new GridItem(false, "My Resume", "docs/Resume.pdf", "images/portfolio-images/resume.png")
             ],
         };
     },
@@ -32,7 +34,7 @@ const app = Vue.createApp({
     methods: {
         
         navigate(url){
-            window.location = url;
+            window.open(url);
         },
 
     },
