@@ -11,6 +11,7 @@ const pythonUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Sample%
 const helpMenuUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Basic%20Help%20Menu%20in%20HTML%2C%20JavaScript";
 const basicWebsiteUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Basic%20Website%20JavaScript%2C%20HTML%2C%20Vue%20Framework";
 const schoolUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Misc.%20Schoolwork";
+const jsonWebApiUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Sample%20JSON%20Web%20API";
 const workPortfolioUrl = "https://github.com/jsladea/Work-Portfolio";
 
 const app = Vue.createApp({
@@ -19,6 +20,7 @@ const app = Vue.createApp({
             mainGridItems: [
                 new GridItem(true, "Python", "python-header"),
                 new GridItem(false, "Sample Website Using Django Framework", "sample-django1",pythonUrl, "images/portfolio-images/python-django.png"),
+                new GridItem(false, "Sample JSON Web API Using Django", "sample-web-api", jsonWebApiUrl, "images/portfolio-images/json-api.jpg"),
                 new GridItem(true, "C#", "c-sharp-header"),
                 new GridItem(false, "C# Windows Forms Application", "c-sharp-item1",cSharpUrl, "images/portfolio-images/csharp.png"),
                 new GridItem(true, "JavaScript", "javascript-header"),
@@ -29,6 +31,7 @@ const app = Vue.createApp({
                 new GridItem(false, "My Resume", "resume", "docs/Resume.pdf", "images/portfolio-images/resume.png"),
                 new GridItem(false, "Entire GitHub Portfolio", "github", workPortfolioUrl, "images/portfolio-images/github.png"),
                 new GridItem(false, "Schoolwork", "schoolwork", schoolUrl, "images/portfolio-images/schoolwork.jpg"),
+                new GridItem(true, "", "end-grid"),
             ],
         };
     },
