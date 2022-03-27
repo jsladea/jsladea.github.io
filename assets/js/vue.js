@@ -10744,8 +10744,7 @@ var Vue = (function (exports) {
     function initDev() {
         {
             {
-                console.info(`You are running a development build of Vue.\n` +
-                    `Make sure to use the production build (*.prod.js) when deploying for production.`);
+                console.info('Application deployed successfully');
             }
             initCustomFormatter();
         }
