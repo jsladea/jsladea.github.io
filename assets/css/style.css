@@ -32,8 +32,7 @@
 }
 
 .grid-header {
-    grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column: 1 / span 3;
     text-align: left;
     font-size: 1.5em;
     font-weight: 400;
