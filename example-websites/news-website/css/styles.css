@@ -1,0 +1,168 @@
+
+/*Custom Dropdown*/
+
+.dropdown-nb {
+    overflow: hidden;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-nb:hover .dropdown-menu {
+    display: block;
+}
+
+
+/*Sidebar*/
+
+#sidebar-heading {
+    font-size: 1.2rem;
+}
+
+.hr-light {
+    background-color: #fff;
+}
+
+.light-hover:hover {
+    background-color: #404040;
+}
+
+.story-img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/*Story Carousel*/
+
+.carousel-img {
+    background-color: gray;
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+}
+
+/*Newsletter Subscription Form*/
+
+#newsletter-form {
+    width: 310px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+    #newsletter-form {
+        width: 270px;
+    }
+}
+
+
+
+.large-story-img {
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+
+
+/*Forecast Grid*/
+.grid-item {
+    background-color: #ffffff;
+    border-width:2px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 15px;
+    overflow-wrap: break-word;
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 40px;
+}
+
+.grid-item header {
+	margin: 0;
+	/**padding: 0.5em 0 0.2em 0;**/
+	font-size: 0.8em;
+}
+
+.grid-item header h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.forecast-img {
+    height: 60px;
+    width: 60px;
+
+    margin-top: 3px;
+    margin-bottom: 5px;
+    background-color: skyblue;
+}
+
+
+#forecast-container {
+    display: grid;
+    column-gap: 25px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    padding: 20px;
+    padding-right:50px;
+}
+
+@media screen and (max-width: 1800px){
+    #forecast-container {
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1610px){
+    #forecast-container {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #forecast-container {
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    #forecast-container {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 975px){
+    #forecast-container {
+        grid-template-columns: auto auto auto ;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #forecast-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #forecast-container {
+        grid-template-columns: auto;
+    }
+}
+
+
+.story-cont-img {
+    height: 200px;
+    width: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .story-cont-img {
+        height: 100px;
+        width: auto;
+    }
+}
