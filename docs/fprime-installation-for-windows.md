@@ -1,5 +1,6 @@
-Aaron Slade
-I rarely know completely what I'm doing, so follow me at your own risk.
+Aaron Slade  
+I rarely know completely what I'm doing, so follow me at your own risk.  
+**Easier Viewing (Uses GitHub style markdown features)**: https://github.com/jsladea/jsladea.github.io/blob/master/docs/fprime-installation-for-windows.md
 
 
 # F' Installation For Windows  
