@@ -44,8 +44,8 @@ There's a few requirements that need to be met for us to install F'.
 
 In your linux shell:
 ```
-    sudo apt install build-essentials
-    sudo apt-get install magpages-dev
+    sudo apt install build-essential
+    sudo apt-get install manpages-dev
 ```
 
 ### Verify Installation of gcc
@@ -84,7 +84,7 @@ You can put it in whatever directory suits you.
 ### Activate the Virtual Environment
 
 ```
-    . $HOME/fprime-env/bin/activate
+    . $HOME/fprime-venv/bin/activate
 ```
 
 **NOTE:** You don’t specifically need to activate an environment; activation just prepends the virtual environment’s binary directory to your path, so that “python” invokes the virtual environment’s Python interpreter and you can run installed scripts without having to use their full path. However, all scripts installed in a virtual environment should be runnable without activating it, and run with the virtual environment’s Python automatically.
