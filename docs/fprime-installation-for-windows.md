@@ -119,3 +119,12 @@ This should also install the appropriate <code>fprime-tools</code>
     sudo pip install fprime-gds
 ```
 
+### Test the GUI
+
+Change directory to the directory that contains the fprime directory.
+Then execute the following:
+
+```
+    fprime-gds -g html -r fprime/Ref/build-artifacts
+```
+
