@@ -13,13 +13,16 @@ const basicWebsiteUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/B
 const schoolUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Misc.%20Schoolwork";
 const jsonWebApiUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Sample%20JSON%20Web%20API";
 const workPortfolioUrl = "https://github.com/jsladea/Work-Portfolio";
+const machineLearningUrl = "https://github.com/jsladea/cs4320-project";
 
 const app = Vue.createApp({
     data() {
         return {
             mainGridItems: [
+                new GridItem(true, "Machine Learning", "machine-learning-header"),
+                new GridItem(false, "Iowa Housing Prices Competition", "cs4320proj", machineLearningUrl, "images/portfolio-images/machine-learning.png"),
                 new GridItem(true, "Python", "python-header"),
-                new GridItem(false, "Sample Website Using Django Framework", "sample-django1",pythonUrl, "images/portfolio-images/python-django.png"),
+                new GridItem(false, "Sample Website Using Django Framework", "sample-django1", pythonUrl, "images/portfolio-images/python-django.png"),
                 new GridItem(false, "Sample JSON Web API Using Django", "sample-web-api", jsonWebApiUrl, "images/portfolio-images/json-api.jpg"),
                 new GridItem(true, "C#", "c-sharp-header"),
                 new GridItem(false, "C# Windows Forms Application", "c-sharp-item1",cSharpUrl, "images/portfolio-images/csharp.png"),
