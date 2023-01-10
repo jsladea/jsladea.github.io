@@ -13,7 +13,7 @@ const basicWebsiteUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/B
 const schoolUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Misc.%20Schoolwork";
 const jsonWebApiUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Sample%20JSON%20Web%20API";
 const workPortfolioUrl = "https://github.com/jsladea/Work-Portfolio";
-const machineLearningUrl = "https://github.com/jsladea/cs4320-project/blob/master/IowaHousePrices.ipynb";
+const machineLearningUrl = "https://github.com/jsladea/sklearn-example/blob/main/IowaHousePrices.ipynb";
 
 const app = Vue.createApp({
     data() {
