@@ -14,11 +14,16 @@ const schoolUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Misc.%2
 const jsonWebApiUrl = "https://github.com/jsladea/Work-Portfolio/tree/master/Sample%20JSON%20Web%20API";
 const workPortfolioUrl = "https://github.com/jsladea/Work-Portfolio";
 const machineLearningUrl = "https://github.com/jsladea/sklearn-example/blob/main/IowaHousePrices.ipynb";
+const discreteMathExampleOne = "https://github.com/jsladea/discrete-math/blob/main/Discrete_Math_Examples_1.pdf";
+const discreteMathExampleTwo = "https://github.com/jsladea/discrete-math/blob/main/Discrete_Math_Examples_2.pdf";
 
 const app = Vue.createApp({
     data() {
         return {
             mainGridItems: [
+                new GridItem(true, "Discrete Math", "discrete-math-header"),
+                new GridItem(false, "Example Set 1", "discrete-example1", discreteMathExampleOne, "images/portfolio-images/combinatorics.png"),
+                new GridItem(false, "Example Set 2", "discrete-example2", discreteMathExampleTwo, "images/portfolio-images/graph-theory.png"),
                 new GridItem(true, "Machine Learning", "machine-learning-header"),
                 new GridItem(false, "Iowa Housing Prices Competition", "cs4320proj", machineLearningUrl, "images/portfolio-images/machine-learning.png"),
                 new GridItem(true, "Python", "python-header"),
