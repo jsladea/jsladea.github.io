@@ -36,7 +36,7 @@ const app = Vue.createApp({
                 new GridItem(false, '"OddJobs" Sample Website Project', "js-item2", pythonUrl, "images/portfolio-images/oddjobs-js.png"),
                 new GridItem(false, "Example Using Vue Framework", "js-item3", basicWebsiteUrl, "images/portfolio-images/basic-website-js.png"),
                 new GridItem(true, "Other", "other-header"),
-                new GridItem(false, "My Resume", "resume", "docs/Resume.pdf", "images/portfolio-images/resume.png"),
+                new GridItem(false, "My Resume", "resume", "docs/Public-Resume.pdf", "images/portfolio-images/resume.png"),
                 new GridItem(false, "Entire GitHub Portfolio", "github", workPortfolioUrl, "images/portfolio-images/github.png"),
                 new GridItem(false, "Schoolwork", "schoolwork", schoolUrl, "images/portfolio-images/schoolwork.jpg"),
                 new GridItem(true, "", "end-grid"),
